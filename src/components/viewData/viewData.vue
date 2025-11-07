@@ -28,14 +28,18 @@ onMounted(() => {
 <template>
     <h1>VIEW DATA</h1>
     <table style="">
-        <tr>
-            <th>ID</th>
-            <th>Container Color</th>
-        </tr>
-        <tr v-for="value in trasbins">
-            <th>{{ value.trashbinId }}</th>
-            <th>{{ value.containerColor }}</th>
-        </tr>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Container Color</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr v-for="value in trasbins">
+                <th>{{ value.trashbinId }}</th>
+                <th>{{ value.containerColor }}</th>
+            </tr>
+        </tbody>
     </table>
 </template>
 <style scoped>
