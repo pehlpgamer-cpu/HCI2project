@@ -15,10 +15,5 @@ import { RouterLink } from 'vue-router';
 </template>
 
 <style scoped>
-main{
-    background: #20a133ad;
-    padding: 8px;
-    border: 3px solid green;
-    border-radius: 1rem;
-}
+
 </style>

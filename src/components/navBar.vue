@@ -11,14 +11,5 @@ import { RouterLink } from 'vue-router';
 </template>
 
 <style scoped>
-main{
-    display: flex;
-    justify-content: center;
-}
 
-button {
-    padding: 6px;
-    margin: 4px;
-    flex-grow: 1;
-}
 </style>

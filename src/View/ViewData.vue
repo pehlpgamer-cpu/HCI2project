@@ -10,7 +10,4 @@ import viewData from '@/components/viewData/viewData.vue';
 </template>
 
 <style scoped>
-*{
-    
-}
 </style>

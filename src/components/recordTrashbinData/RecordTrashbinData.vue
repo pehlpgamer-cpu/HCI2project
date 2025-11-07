@@ -34,18 +34,5 @@ import { RouterLink } from 'vue-router';
 
 </template>
 <style scoped>
-form{
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-    text-align: start;
-    border: 2px solid green;
-    background-color: rgba(255, 255, 255, 0.77);
-    padding: 6px;
-}
-#submitBtn{
-    padding: 4px;
-    font-weight: bold;
-}
 
 </style>

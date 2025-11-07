@@ -39,16 +39,5 @@ onMounted(() => {
     </table>
 </template>
 <style scoped>
-table{
-    background-color: white;
-    border: 1px solid black;
-}
-tr{
-    border: 1px solid black;
-}
-th{
-    border: 1px solid black;
-    padding: 4px;
-}
 
 </style>
