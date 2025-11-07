@@ -10,11 +10,11 @@ import { RouterLink } from 'vue-router';
         <form>
             <label>Trashbin Id</label>
             <div>
-                <input type="number" placeholder="trashbin id">
+                <input type="number" placeholder="trashbin id" required>
                 <button @click="">Scan QR</button>
             </div>
             <label>Capacity Status</label>
-            <select>
+            <select required>
                 <option>N/A</option>
                 <option>Overflowing</option>
                 <option>Full</option>
@@ -25,7 +25,7 @@ import { RouterLink } from 'vue-router';
             </select>
             <label>Attachment</label>
             <input type="file">
-            <button type="submit">Submit</button>
+            <button id="submitBtn" type="submit">Submit</button>
             
         </form>
         
@@ -37,12 +37,15 @@ import { RouterLink } from 'vue-router';
 form{
     display: flex;
     flex-direction: column;
-    row-gap: 3px;
+    gap: 4px;
     text-align: start;
     border: 2px solid green;
     background-color: rgba(255, 255, 255, 0.77);
     padding: 6px;
 }
-
+#submitBtn{
+    padding: 4px;
+    font-weight: bold;
+}
 
 </style>

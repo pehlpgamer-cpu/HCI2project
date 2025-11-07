@@ -5,7 +5,7 @@ import viewData from '@/components/viewData/viewData.vue';
 </script>
 
 <template>
-    <ViewData/>
+    <viewData/>
     <NavBar />    
 </template>
 

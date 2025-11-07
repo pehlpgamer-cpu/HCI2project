@@ -14,11 +14,11 @@ import { RouterLink } from 'vue-router';
 main{
     display: flex;
     justify-content: center;
-    
 }
+
 button {
     padding: 6px;
     margin: 4px;
-    
+    flex-grow: 1;
 }
 </style>
