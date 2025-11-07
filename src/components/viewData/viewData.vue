@@ -37,9 +37,6 @@ onMounted(() => {
             <th>{{ value.containerColor }}</th>
         </tr>
     </table>
-    <ul>
-        <!--<li v-for="value in trasbins">{{ value.containerColor }}</li>-->
-    </ul>
 </template>
 <style scoped>
 table{
