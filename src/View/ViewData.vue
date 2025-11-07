@@ -1,14 +1,12 @@
 <script setup>
 import NavBar from '@/components/navBar.vue';
+import viewData from '@/components/viewData/viewData.vue';
 
 </script>
 
 <template>
-    <main>
-        <h1>VIEW DATA</h1>
-        <NavBar />
-    </main>
-    
+    <ViewData/>
+    <NavBar />    
 </template>
 
 <style scoped>
